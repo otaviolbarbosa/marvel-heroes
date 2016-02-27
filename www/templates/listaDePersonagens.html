@@ -1,0 +1,12 @@
+<ion-view title="Lista de Personagens">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <ion-list>
+            <ion-item class="item-thumbnail-left item-icon-right" ui-sref="personagem({ idPersonagem:personagem.id })" ng-repeat="personagem in personagens">
+                <img ng-src="{{ personagem.thumbnail.path + '.' + personagem.thumbnail.extension }}">
+                <h2><strong>Nome:</strong> {{ personagem.name }}</h2>
+                <p><strong>Modificado em :</strong> {{ personagem.modified | date: 'dd/MM/yyyy' }} </p>
+                <i class="icon ion-chevron-right"></i>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,19 @@
+<ion-view title="Busca">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <label class="item item-input" name="nome">
+                <span class="input-label">Nome</span>
+                <input type="text" ng-model="formPersonagem.nome" placeholder="Nome do Persnagem">
+            </label>
+            <label class="item item-input" name="limit">
+                <span class="input-label">Quantidade</span>
+                <input type="number" ng-model="formPersonagem.limit" placeholder="">
+            </label>
+            <label class="item item-input" name="offset">
+                <span class="input-label">Offset</span>
+                <input type="number" ng-model="formPersonagem.offset" placeholder="">
+            </label>
+        </form>
+        <a ng-click="enviaForm()" class="button button-positive button-block ">Buscar</a>
+    </ion-content>
+</ion-view>

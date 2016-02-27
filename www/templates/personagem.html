@@ -1,0 +1,11 @@
+<ion-view title="Personagem">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <div class="list card">
+            <div class="item item-divider">{{ personagem.name }}</div>
+            <div class="item item-body">
+                <img class="full-image" src="{{personagem.thumbnail.path + '.' + personagem.thumbnail.extension}}">
+                <p>{{personagem.description}}</p>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
