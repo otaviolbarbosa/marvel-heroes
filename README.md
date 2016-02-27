@@ -4,7 +4,7 @@ Aplicativo de exemplo desenvolvido no minicurso de AngularJS e Ionic. Ficou basi
 
 ## Instalação
 
-** Obs.: Irei supor que o ambiente de desenvolvimento esteja pronto **
+**Obs.: Irei supor que o ambiente de desenvolvimento esteja pronto**
 
 1. Baixando o projeto no github: ``git clone https://github.com/otaviomorcegao/marvel-heroes.git``
 
