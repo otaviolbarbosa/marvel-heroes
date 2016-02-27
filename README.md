@@ -24,4 +24,4 @@ Caso seja a primeira vez que rode o server, escolha entre as opções de host (S
 
 6. Criando o app: ``ionic build android``
 
-Tá tranquilo. Tá favirável.
+Tá tranquilo. Tá favorável.
